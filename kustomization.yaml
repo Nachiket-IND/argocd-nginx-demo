@@ -1,0 +1,4 @@
+# ~/argocd-nginx-demo/base/kustomization.yaml
+resources:
+  - deployment.yaml
+  - service.yaml
