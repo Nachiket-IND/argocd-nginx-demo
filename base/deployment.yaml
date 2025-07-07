@@ -1,9 +1,8 @@
-# base/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: default   # ✅ Required for ArgoCD
+  namespace: default         # <--- Add this line
   labels:
     app: nginx
 spec:
